@@ -21,7 +21,6 @@ function App() {
         <ThemeProvider>
           <Navbar />
           <Routes>
-            <Route path="/" Component={Navbar} />
             <Route path="/user" Component={UserForm} />
             <Route path="/caching" Component={Caching} />
             <Route path="/pagination" Component={Pagination} />
